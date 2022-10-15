@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Vast+Shadow&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
 }
 nav a {
     color: #f2d272;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     color: #123e59;
@@ -19,6 +24,8 @@ nav a:hover {
 }
 .home_title {
     color: #f2d272;
+    font-family: "Vast Shadow", "Rockwell", serif;
+    font-size: 2em;
 }
 h4 {
     color: #123e59;
@@ -29,12 +36,19 @@ h4 {
 main section {
     text-align: center;
 }
+h2 {
+    margin: 0;
+}
 #background {
     height: 725px;
     background-color: #f2f2f2;
 }
 body {
     background-color: white;
+    font-family: Poppins, "Trebuchet MS", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: rgba(18,62,89, .7);
@@ -43,6 +57,8 @@ header {
     background-color: #123e59;
     color: #f2d272;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px
 }
 .book:hover, .join:hover {
     background-color: #f2d272;
@@ -50,16 +66,22 @@ header {
 }
 .msg {
     background-color: #f2d272;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #123e59;
+    font-family: "Vast Shadow", "Rockwell", serif;
 }
 .msg p {
     color: #123e59;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #123e59;
     color: #f2d272;
+    padding: 25px 50px;
 }
 footer p {
     font-size: 1.2em;
@@ -74,8 +96,12 @@ footer a {
 footer a:hover {
     color: #79cfd9;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
