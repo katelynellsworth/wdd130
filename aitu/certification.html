@@ -35,6 +35,31 @@
                 <h4>Winter sports have snowflake icon</h4>
                 <img class="icon" src="images/snowflake-icon.png" alt="Snowflake icon">
             </section>
+            <button class="accordion">Rock Climbing</button>
+            <div class="panel">
+                <img class="card-img" src="images/repelling.jpeg" alt="Man repelling down mountain">
+                <p>Repelling/Rock climbing certification needed.</p>
+                <img class="icon" src="images/sun-icon.png" alt="sun icon">
+                <img class="icon" src="images/snowflake-icon.png" alt="Snowflake icon">
+            </div>
+            <button class="accordion">Horseback Riding</button>
+            <div class="panel">
+                <img class="card-img" src="images/horseback-riding.jpeg" alt="People Horsback riding in mountains">
+                <p>No certification needed for Horseback riding.</p>
+                <img class="icon" src="images/sun-icon.png" alt="sun icon">
+            </div>
+            <button class="accordion">ATV Riding</button>
+            <div class="panel">
+                <img class="card-img" src="images/atv-riding.jpeg" alt="ATV riding">
+                <p>A valid lisence is needed for ATV riding.</p>
+                <img class="icon" src="images/sun-icon.png" alt="sun icon">
+            </div>
+            <button class="accordion">Snowmobiling</button>
+            <div class="panel">
+                <img class="card-img" src="images/snowmobiling.jpeg" alt="snowmobiling">
+                <p>A valid lisence is needed for snowmobiling.</p>
+                <img class="icon" src="images/snowflake-icon.png" alt="Snowflake icon">
+            </div>
             <section class="repelling-card">
                 <img class="card-img" src="images/repelling.jpeg" alt="Man repelling down mountain">
                 <h2>Repelling/Rock climbing certification needed</h2>
@@ -192,5 +217,25 @@
             </div>
         </footer>
     </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+    </script>
 </body>
 </html>
