@@ -140,6 +140,67 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
+/* Style for prices/dates page */
+#dates-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #96B9D9;
+}
+#prices_heading_box {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.prices_title {
+    color: #1C4D8C;
+    font-family: "Stick No Bills", Tahoma, sans-serif;
+    font-size: 2.3em;
+    margin-top: 10px;
+    text-align: center;
+}
+.certification {
+    background-color: #1C4D8C;
+    color: #FFFBC8;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: "Shadows Into Light", Times, serif;
+}
+#price-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#iceland_trip_img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+#switzerland_trip_img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.dates-header {
+    color: #457324;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Stick No Bills", Tahoma, sans-serif;
+}
+.dates-columns {
+    background-color: #96B9D9;
+    color: #1C4D8C;
+    grid-column-start: 1;
+    font-size: 2em;
+    font-family: "Shadows Into Light", Times, serif;
+    width: 60%;
+    margin: 10px 20%;
+    text-align: center;
+}
+
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #eee;
